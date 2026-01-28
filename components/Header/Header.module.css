@@ -1,0 +1,18 @@
+.headerSection {
+  margin: 0;
+  border-bottom: 1px solid #f2f4f7;
+  padding: 24px 64px;
+  width: 1440px;
+  height: 72px;
+  padding: 28px 64px;
+  display: flex;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 32px;
+  margin-left: 450px;
+  align-items: center;
+  justify-content: flex-start;
+}
