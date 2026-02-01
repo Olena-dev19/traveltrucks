@@ -1,22 +1,18 @@
 .divContainer {
-  /* background-image: url("/home-background.jpg");
-  background-size: cover;
+  background-image: url("/home-background.webp");
+  background-repeat: no-repeat;
   background-position: center;
-  height: 100vh; */
+  background-size: cover;
 
-  height: 700px;
+  height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  padding: 0 64px;
 }
 .homeContainer {
-  background-image: url("/home-background.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  padding: 260px 64px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 16px;
+  gap: 40px;
 }
 .homeTitle {
   font-weight: 600;

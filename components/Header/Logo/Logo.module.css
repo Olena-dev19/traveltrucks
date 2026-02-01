@@ -1,0 +1,13 @@
+.logoCont {
+  display: flex;
+  align-items: center;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.svgLogo {
+  display: block;
+}
